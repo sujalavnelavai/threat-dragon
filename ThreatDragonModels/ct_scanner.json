@@ -560,7 +560,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F01a\\nDICOM Storage — CT → PACS",
+                      "text": "F01a",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -657,7 +657,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F01b\\nDICOM Storage — PACS → CT",
+                      "text": "F01b",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -754,7 +754,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F02a\\nStorage Commitment — N-ACTION CT → PACS",
+                      "text": "F02a",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -829,7 +829,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F02b\\nStorage Commitment — N-EVENT-REPORT PACS → CT",
+                      "text": "F02b",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -881,7 +881,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F03a\\nQuery/Retrieve — C-FIND CT → PACS",
+                      "text": "F03a",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -967,7 +967,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F03b\\nQuery/Retrieve — C-FIND response PACS → CT",
+                      "text": "F03b",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1019,7 +1019,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F03c\\nQuery/Retrieve — C-MOVE CT → PACS",
+                      "text": "F03c",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1071,7 +1071,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F03d\\nQuery/Retrieve — C-STORE PACS → CT",
+                      "text": "F03d",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1123,7 +1123,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F04a\\nModality Worklist — C-FIND CT → RIS/HIS",
+                      "text": "F04a",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1220,7 +1220,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F04b\\nModality Worklist — response RIS/HIS → CT",
+                      "text": "F04b",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1272,7 +1272,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F05\\nMPPS — N-CREATE/N-SET CT → RIS/HIS",
+                      "text": "F05",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1358,7 +1358,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F07\\nClinical User Interaction",
+                      "text": "F07",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1444,7 +1444,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F08\\nVendor/Service Access (where deployed)",
+                      "text": "F08",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1530,7 +1530,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F09a\\nSupporting Network Services — CT ↔ services",
+                      "text": "F09a",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1605,7 +1605,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F09b\\nClinical Network Reachability",
+                      "text": "F09b",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1687,7 +1687,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "S01\\nCT Local Storage",
+                      "text": "S01",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1733,7 +1733,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "S02\\nPACS Archive",
+                      "text": "S02",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1779,7 +1779,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "S03\\nRIS/HIS Database",
+                      "text": "S03",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1893,7 +1893,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F06\\nDICOM Print",
+                      "text": "F06",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1938,7 +1938,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F10\\nAudit Information",
+                      "text": "F10",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1983,7 +1983,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "F11\\nAutorouting — configured DICOM node(s)",
+                      "text": "F11",
                       "font-weight": "400",
                       "font-size": "small"
                     }

@@ -28,19 +28,44 @@
               },
               "smooth": true,
               "source": {
-                "x": 300,
-                "y": 120
+                "x": 315,
+                "y": 235
               },
               "target": {
-                "x": 560,
-                "y": 480
+                "x": 515,
+                "y": 525
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 285,
+                  "y": 300
+                },
+                {
+                  "x": 285,
+                  "y": 500
+                },
+                {
+                  "x": 515,
+                  "y": 525
+                }
+              ],
               "id": "849e31c5-fb60-4fb4-b2b4-90233de94499",
               "z": 1,
               "attrs": {},
               "hasOpenThreats": false,
-              "description": "Trust boundary around the CT device and its local storage/admin functions."
+              "description": "Trust boundary around the CT device and its local storage/admin functions.",
+              "labels": [
+                {
+                  "position": 0.08,
+                  "attrs": {
+                    "text": {
+                      "text": "TB01 CT Device Boundary",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ]
             },
             {
               "type": "tm.Boundary",
@@ -50,41 +75,44 @@
               },
               "smooth": true,
               "source": {
-                "x": 520,
+                "x": 560,
                 "y": 80
               },
               "target": {
-                "x": 1020,
-                "y": 560
+                "x": 960,
+                "y": 570
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 560,
+                  "y": 60
+                },
+                {
+                  "x": 960,
+                  "y": 60
+                },
+                {
+                  "x": 960,
+                  "y": 570
+                }
+              ],
               "id": "2c53bfb5-368e-4099-9af2-17eb637431ba",
               "z": 2,
               "attrs": {},
               "hasOpenThreats": false,
-              "description": "Trust boundary between CT-connected clinical systems and other hospital network assets."
-            },
-            {
-              "type": "tm.Boundary",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
-              "smooth": true,
-              "source": {
-                "x": 830,
-                "y": 250
-              },
-              "target": {
-                "x": 1080,
-                "y": 480
-              },
-              "vertices": [],
-              "id": "eeb4d092-a64b-43a7-b589-121ace7e1a46",
-              "z": 3,
-              "attrs": {},
-              "hasOpenThreats": false,
-              "description": "Trust boundary around clinical workstation/user interaction."
+              "description": "Trust boundary between CT-connected clinical systems and other hospital network assets.",
+              "labels": [
+                {
+                  "position": 0.08,
+                  "attrs": {
+                    "text": {
+                      "text": "TB02 Hospital Network Boundary",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ]
             },
             {
               "type": "tm.Boundary",
@@ -95,18 +123,90 @@
               "smooth": true,
               "source": {
                 "x": 40,
-                "y": 120
+                "y": 35
               },
               "target": {
-                "x": 250,
-                "y": 550
+                "x": 390,
+                "y": 205
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 40,
+                  "y": 35
+                },
+                {
+                  "x": 40,
+                  "y": 205
+                },
+                {
+                  "x": 390,
+                  "y": 205
+                }
+              ],
+              "id": "eeb4d092-a64b-43a7-b589-121ace7e1a46",
+              "z": 3,
+              "attrs": {},
+              "hasOpenThreats": false,
+              "description": "Trust boundary around clinical workstation/user interaction.",
+              "labels": [
+                {
+                  "position": 0.08,
+                  "attrs": {
+                    "text": {
+                      "text": "TB03 Clinical Workstation Boundary",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 25,
+                "y": 210
+              },
+              "target": {
+                "x": 235,
+                "y": 335
+              },
+              "vertices": [
+                {
+                  "x": 25,
+                  "y": 210
+                },
+                {
+                  "x": 25,
+                  "y": 335
+                },
+                {
+                  "x": 235,
+                  "y": 335
+                }
+              ],
               "id": "3f6630f4-6b41-42c6-b9f9-d8500fa0a9b7",
               "z": 4,
               "attrs": {},
               "hasOpenThreats": false,
-              "description": "Trust boundary for vendor/service personnel and any external maintenance path; deployment-dependent."
+              "description": "Trust boundary for vendor/service personnel and any external maintenance path; deployment-dependent.",
+              "labels": [
+                {
+                  "position": 0.08,
+                  "attrs": {
+                    "text": {
+                      "text": "TB04 External/Vendor Boundary",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ]
             },
             {
               "type": "tm.Process",
@@ -115,8 +215,8 @@
                 "height": 90
               },
               "position": {
-                "x": 350,
-                "y": 220
+                "x": 390,
+                "y": 285
               },
               "angle": 0,
               "id": "fccb4554-e458-4ea2-b088-edd0ed870cfc",
@@ -191,8 +291,8 @@
                 "height": 90
               },
               "position": {
-                "x": 650,
-                "y": 170
+                "x": 700,
+                "y": 160
               },
               "angle": 0,
               "id": "2b29dbce-3fdb-49f8-b1af-b53e3db201c7",
@@ -221,8 +321,8 @@
                 "height": 90
               },
               "position": {
-                "x": 650,
-                "y": 330
+                "x": 700,
+                "y": 390
               },
               "angle": 0,
               "id": "87b88bdc-ecd0-47d9-a54f-107727c70b31",
@@ -251,8 +351,8 @@
                 "height": 90
               },
               "position": {
-                "x": 900,
-                "y": 330
+                "x": 250,
+                "y": 90
               },
               "angle": 0,
               "id": "0a669472-850d-44e8-b159-ed8f8d8e9115",
@@ -281,8 +381,8 @@
                 "height": 80
               },
               "position": {
-                "x": 900,
-                "y": 180
+                "x": 60,
+                "y": 90
               },
               "angle": 0,
               "id": "0eadd248-95a7-48c6-8bb3-46c4d791ec34",
@@ -311,8 +411,8 @@
                 "height": 80
               },
               "position": {
-                "x": 90,
-                "y": 220
+                "x": 60,
+                "y": 260
               },
               "angle": 0,
               "id": "4bea1514-bdb3-4346-a611-2cd990d09160",
@@ -341,8 +441,8 @@
                 "height": 80
               },
               "position": {
-                "x": 90,
-                "y": 420
+                "x": 60,
+                "y": 455
               },
               "angle": 0,
               "id": "77e7ef5c-06e9-4122-a78c-0b10c1269986",
@@ -371,8 +471,8 @@
                 "height": 80
               },
               "position": {
-                "x": 330,
-                "y": 380
+                "x": 365,
+                "y": 430
               },
               "angle": 0,
               "id": "43a7a71b-0bbc-44e4-b9a8-a2e50a0fcb56",
@@ -425,8 +525,8 @@
                 "height": 80
               },
               "position": {
-                "x": 650,
-                "y": 40
+                "x": 875,
+                "y": 160
               },
               "angle": 0,
               "id": "260688e1-cfe4-44f6-9b65-3cd472d3a484",
@@ -455,8 +555,8 @@
                 "height": 80
               },
               "position": {
-                "x": 650,
-                "y": 470
+                "x": 875,
+                "y": 390
               },
               "angle": 0,
               "id": "d4e58933-0454-4085-96a1-85a22c3cf12c",
@@ -491,7 +591,16 @@
               "target": {
                 "id": "2b29dbce-3fdb-49f8-b1af-b53e3db201c7"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 155
+                },
+                {
+                  "x": 625,
+                  "y": 155
+                }
+              ],
               "id": "5a7a12de-ceb7-4f20-b0d1-085e42e80dc2",
               "z": 5,
               "labels": [
@@ -579,7 +688,16 @@
               "target": {
                 "id": "fccb4554-e458-4ea2-b088-edd0ed870cfc"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 175
+                },
+                {
+                  "x": 625,
+                  "y": 175
+                }
+              ],
               "id": "f2c323b1-ccc9-4068-ab2b-dd60c88ea532",
               "z": 5,
               "labels": [
@@ -667,7 +785,16 @@
               "target": {
                 "id": "2b29dbce-3fdb-49f8-b1af-b53e3db201c7"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 195
+                },
+                {
+                  "x": 625,
+                  "y": 195
+                }
+              ],
               "id": "2782402d-35a8-4f0b-9d30-0af9043fbeae",
               "z": 5,
               "labels": [
@@ -733,7 +860,16 @@
               "target": {
                 "id": "fccb4554-e458-4ea2-b088-edd0ed870cfc"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 215
+                },
+                {
+                  "x": 625,
+                  "y": 215
+                }
+              ],
               "id": "6ece06ba-2be5-4e55-b4cf-8b0d94639526",
               "z": 5,
               "labels": [
@@ -776,7 +912,16 @@
               "target": {
                 "id": "2b29dbce-3fdb-49f8-b1af-b53e3db201c7"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 235
+                },
+                {
+                  "x": 625,
+                  "y": 235
+                }
+              ],
               "id": "7efdc4ce-989b-4cf7-a859-1ea40b5b3c63",
               "z": 5,
               "labels": [
@@ -853,7 +998,16 @@
               "target": {
                 "id": "fccb4554-e458-4ea2-b088-edd0ed870cfc"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 255
+                },
+                {
+                  "x": 625,
+                  "y": 255
+                }
+              ],
               "id": "fa97d328-267a-4fe5-89fd-4654372c37a1",
               "z": 5,
               "labels": [
@@ -896,7 +1050,16 @@
               "target": {
                 "id": "fccb4554-e458-4ea2-b088-edd0ed870cfc"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 275
+                },
+                {
+                  "x": 625,
+                  "y": 275
+                }
+              ],
               "id": "d9c0e0ab-c040-4be9-9083-78f59948a51d",
               "z": 5,
               "labels": [
@@ -939,7 +1102,16 @@
               "target": {
                 "id": "2b29dbce-3fdb-49f8-b1af-b53e3db201c7"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 295
+                },
+                {
+                  "x": 625,
+                  "y": 295
+                }
+              ],
               "id": "5a5c4663-b66b-40db-96a7-0d19913d0383",
               "z": 5,
               "labels": [
@@ -982,7 +1154,16 @@
               "target": {
                 "id": "87b88bdc-ecd0-47d9-a54f-107727c70b31"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 355
+                },
+                {
+                  "x": 625,
+                  "y": 355
+                }
+              ],
               "id": "a2304f50-e53b-44ea-8642-8f120c8b92b3",
               "z": 5,
               "labels": [
@@ -1070,7 +1251,16 @@
               "target": {
                 "id": "fccb4554-e458-4ea2-b088-edd0ed870cfc"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 380
+                },
+                {
+                  "x": 625,
+                  "y": 380
+                }
+              ],
               "id": "58080a77-387d-4df2-8aa0-b64d553f6444",
               "z": 5,
               "labels": [
@@ -1113,7 +1303,16 @@
               "target": {
                 "id": "87b88bdc-ecd0-47d9-a54f-107727c70b31"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 405
+                },
+                {
+                  "x": 625,
+                  "y": 405
+                }
+              ],
               "id": "b4236c21-7ce9-4ba7-a793-47628bdc3477",
               "z": 5,
               "labels": [
@@ -1190,7 +1389,16 @@
               "target": {
                 "id": "fccb4554-e458-4ea2-b088-edd0ed870cfc"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 205,
+                  "y": 210
+                },
+                {
+                  "x": 280,
+                  "y": 240
+                }
+              ],
               "id": "00ba19b3-8125-4048-bd89-76c088ad4235",
               "z": 5,
               "labels": [
@@ -1267,7 +1475,16 @@
               "target": {
                 "id": "fccb4554-e458-4ea2-b088-edd0ed870cfc"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 215,
+                  "y": 300
+                },
+                {
+                  "x": 330,
+                  "y": 300
+                }
+              ],
               "id": "50664a55-057d-4bc1-ae18-3aadbd8b748c",
               "z": 5,
               "labels": [
@@ -1344,7 +1561,16 @@
               "target": {
                 "id": "77e7ef5c-06e9-4122-a78c-0b10c1269986"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 220,
+                  "y": 450
+                },
+                {
+                  "x": 330,
+                  "y": 395
+                }
+              ],
               "id": "226bb215-0d35-4591-a3fc-0bfdea03bdcd",
               "z": 5,
               "labels": [
@@ -1410,7 +1636,16 @@
               "target": {
                 "id": "fccb4554-e458-4ea2-b088-edd0ed870cfc"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 220,
+                  "y": 500
+                },
+                {
+                  "x": 330,
+                  "y": 420
+                }
+              ],
               "id": "57ab7f76-ff57-45c7-a8a3-c02c053e4558",
               "z": 5,
               "labels": [
@@ -1487,7 +1722,12 @@
               "target": {
                 "id": "43a7a71b-0bbc-44e4-b9a8-a2e50a0fcb56"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 405,
+                  "y": 410
+                }
+              ],
               "id": "8861ae3a-c48b-4ea2-925a-d7ed45c48ad1",
               "z": 5,
               "labels": [
@@ -1528,7 +1768,12 @@
               "target": {
                 "id": "260688e1-cfe4-44f6-9b65-3cd472d3a484"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 855,
+                  "y": 145
+                }
+              ],
               "id": "c9365303-de05-472c-b0a8-fc4b0a986136",
               "z": 5,
               "labels": [
@@ -1569,7 +1814,12 @@
               "target": {
                 "id": "d4e58933-0454-4085-96a1-85a22c3cf12c"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 855,
+                  "y": 415
+                }
+              ],
               "id": "d9cf9e98-e861-44c6-8952-c88cdf787329",
               "z": 5,
               "labels": [
@@ -1604,8 +1854,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1000,
-                "y": 80
+                "x": 1010,
+                "y": 65
               },
               "angle": 0,
               "id": "8047795a-7b3e-4494-b3e5-8d0a8d792154",
@@ -1636,7 +1886,7 @@
                 "height": 80
               },
               "position": {
-                "x": 1000,
+                "x": 1010,
                 "y": 520
               },
               "angle": 0,
@@ -1674,7 +1924,16 @@
               "target": {
                 "id": "8047795a-7b3e-4494-b3e5-8d0a8d792154"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 90
+                },
+                {
+                  "x": 960,
+                  "y": 90
+                }
+              ],
               "id": "81e4c7e2-7527-469e-bedb-6b1add2ec826",
               "z": 5,
               "labels": [
@@ -1710,7 +1969,16 @@
               "target": {
                 "id": "1ee0b2ef-30c6-4e58-8f57-cda995c45ff2"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 545
+                },
+                {
+                  "x": 960,
+                  "y": 545
+                }
+              ],
               "id": "f80a65bf-5851-4aeb-a2dd-a00ee1c411bd",
               "z": 5,
               "labels": [
@@ -1746,7 +2014,16 @@
               "target": {
                 "id": "2b29dbce-3fdb-49f8-b1af-b53e3db201c7"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 120
+                },
+                {
+                  "x": 625,
+                  "y": 120
+                }
+              ],
               "id": "2e4c6f90-b941-4292-ab18-ff914242e0ad",
               "z": 5,
               "labels": [
@@ -1983,3 +2260,4 @@
     }
   }
 }
+
